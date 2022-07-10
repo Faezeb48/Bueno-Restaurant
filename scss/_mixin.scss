@@ -1,0 +1,4 @@
+@mixin header($url, $repeat, $pos1, $pos2, $attach, $cover){
+    background:$url $repeat $pos1 $pos2 $attach;
+    background-size:$cover;
+}
